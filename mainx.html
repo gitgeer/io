@@ -1,1 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inner Output</title>
+    <link rel="stylesheet" href="styles.css">
+   
+   
+     
+    <nav class="navbar">
+      <div class="navbar__container">
+        
+<style>        
+ .html {
+  overflow: hidden;
+}
+.shape {
+  box-shadow: 10 20 0 5px rgba(94, 99, 25, 77.85);
+  height: 20%;
+  width: 30%;
+  transform: rotate(75deg);
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
+.shape:before,
+.shape:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 0 0 5px rgba(0, 255, 207, 0.5);
+}
+.shape,
+.shape:before,
+.shape:after {
+  animation: spin 5s ease infinite;
+  border-radius: 50%;
+}
+.shape:before {
+  animation-delay: 0.96s;
+}
+.shape:after {
+  animation-delay: 2.32s;
+}
+.shape:nth-child(2) {
+  animation-delay: 0.99s;
+}
+@keyframes spin {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: scale(0.25) rotateX(-560deg);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+  </style>
+        <div class="shape"></div>
+        
+        
+        <a href="index.html" id="navbar__logo"><i class="gem"></i>Inner Output</a>
+        
+        
+        
+ <span class="bar">
+        <ul class="navbar__menu">
+          <li class="navbar__item"><div class="cybr-btn-border"><button class="cybr-btn-ghost">
+            <a href="index.html" onclick="route()">Дом</a><span aria-hidden class="cybr-btn-ghost__glitch">Дом</span>
+          </li></button>
+          <li class="navbar__item"><div class="cybr-btn-border"><button class="cybr-btn-ghost">
+            <a href="texts.html" onclick="route()">Текст</a><span aria-hidden class="cybr-btn-ghost__glitch">Текст</span>
+          </li></button>
+          <li class="navbar__item"><div class="cybr-btn-border"><button class="cybr-btn-ghost">
+            <a href="products.html" onclick="route()">Фото</a><span aria-hidden class="cybr-btn-ghost__glitch">Фото</span>
+          </li></button>
+    <li class="navbar__item"><div class="cybr-btn-border"><button class="cybr-btn-ghost">
+            <a href="info.html" onclick="route()">Инфо</a><span aria-hidden class="cybr-btn-ghost__glitch">Инфо</span>
+          </li></button>
+   </ul>
+    </span>
+  
+
+</div>
+         
+      </div>
+    </nav>
+</head>
+
+<body>
+    <!-- Her  -->
+  
+  <canvas id="noise" class="noise"></canvas>
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+
+          <h2>Внутренний Вывод</h2>
+          <h6><i>Мы постоянно что нибудь воспринимаем, нечто беспрерывно проходит сквозь нас, - всё это Ввод, - множество процессов в сознании, динамически сменяющих друг друга и зачастую слабо поддающихся контролю. Вывод, - это единственное что можно попробовать обуздать, и прежде всего он начинается внутри.</i></h6><br><br>
+          <p>•⁂•</p>
+          
+        </div>
+        <div class="main__img--container">
+          <img id="main__img" src="имг.jpeg" />
+        </div>
+      </div>
+    </div>
+          
+          
+          
+          
+          <div class="social__icons">
+            <section>
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <i class="facebook"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i class="instagram"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="//www.youtube.com/channel"
+              target="_blank"
+              aria-label="Youtube"
+            >
+              <i class="youtube"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="Twitter"
+            >
+              <i class="twitter"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+<script src="js/noise.js"></script>
+  </body>
+</html>
 
