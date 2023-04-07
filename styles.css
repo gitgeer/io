@@ -272,7 +272,6 @@ a:active {
   background-color: #131313;
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
   padding-right: 50px;
   padding-left: 50px;
 }
