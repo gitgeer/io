@@ -13,63 +13,7 @@
     <nav class="navbar">
       <div class="navbar__container">
         
-<style>        
- .html {
-  overflow: hidden;
-}
-.shape {
-  box-shadow: 10 20 0 5px rgba(94, 99, 25, 77.85);
-  height: 5%;
-  width: 1%;
-  transform: rotate(75deg);
-  position: relative;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-}
-.shape:before,
-.shape:after {
-  content: "";
-  position: relative;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  box-shadow: 0 0 0 5px rgba(0, 255, 207, 0.5);
-}
-.shape,
-.shape:before,
-.shape:after {
-  animation: spin 5s ease infinite;
-  border-radius: 25%;
-}
-.shape:before {
-  animation-delay: 0.96s;
-}
-.shape:after {
-  animation-delay: 2.32s;
-}
-.shape:nth-child(2) {
-  animation-delay: 0.99s;
-}
-@keyframes spin {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-    transform: scale(0.25) rotateX(-560deg);
-  }
-  100% {
-    opacity: 0;
-  }
-}
-  </style>
-        <div class="shape"></div>
-        
+
         
         <a href="index.html" id="navbar__logo"><i class="gem"></i>Внутренний Вывод</a>
         
@@ -98,7 +42,63 @@
       </div>
     </nav>
 </head>
-
+<style>        
+ .html {
+  overflow: hidden;
+}
+.shape {
+  box-shadow: 10 20 0 5px rgba(94, 99, 25, 77.85);
+  height: 5%;
+  width: 1%;
+  transform: rotate(75deg);
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
+.shape:before,
+.shape:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 0 0 5px rgba(0, 255, 207, 0.5);
+}
+.shape,
+.shape:before,
+.shape:after {
+  animation: spin 5s ease infinite;
+  border-radius: 25%;
+}
+.shape:before {
+  animation-delay: 0.96s;
+}
+.shape:after {
+  animation-delay: 2.32s;
+}
+.shape:nth-child(2) {
+  animation-delay: 0.99s;
+}
+@keyframes spin {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: scale(0.25) rotateX(-360deg);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+  </style>
+        <div class="shape"></div>
+        
 <body>
     <!-- Her  -->
   
