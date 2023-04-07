@@ -1,4 +1,13 @@
-
+.head {
+  background-color: #999679;
+  border: 1px solid rgb(50, 100, 75);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  text-align: center;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .cyb-title:hover {
     animation: shake-it 0.5s reverse infinite
