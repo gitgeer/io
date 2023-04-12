@@ -9,7 +9,7 @@ const routes = {
     404: "/pages/404.html",
     "Home": "index.html",
     "texts": "texts.html",
-    "Products": "products.html",
+    "Products": "graphot.html",
     "Info": "info.html",
 };
 
