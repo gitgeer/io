@@ -263,8 +263,7 @@ a:active {
   background-color: #141414;
 }
 .main__container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: contents;
   align-items: center;
   justify-self: center;
   margin: 0 auto;
