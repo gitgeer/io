@@ -710,6 +710,17 @@ a:active {
   height: 70hv;
 }
 
+.footer__containersec {
+  background-color: #141414;
+  padding: 0rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
 #footer__logo {
   color: #fdfbe7;
   display: flex;
