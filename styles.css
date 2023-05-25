@@ -9,6 +9,19 @@
   margin-right: auto;
 }
 
+.open-booktwo {
+    background: #000000;
+    box-shadow: rgba(0,0,0,0.5) 0 1em 3em;
+    color: #1F1F1F;
+    padding: 3em;
+    height: 100%;
+    width: 100%;
+}
+
+.open-booktwo * {
+    position: relative;
+}
+
 .cyb-title:hover {
     animation: shake-it 0.5s reverse infinite
         cubic-bezier(0.68, -0.55, 0.27, 1.55);
